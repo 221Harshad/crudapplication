@@ -1,13 +1,77 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.home .card-body {
+  border-radius: 15px; /* Reduced border-radius for better appearance */
+  background-color: rgb(128, 157, 207);
+  border-left: 2px solid rgb(246, 181, 181);
+  background-image: url("./images/hot-air-balloon.png"); /* Removed extra slashes in the image URL */
+  opacity: 0.9; /* Corrected opacity value */
+  color: white;
+  padding: 20px; /* Added padding for better spacing */
+  font-size: 16px; /* Adjust font size as per your preference */
+  font-family: Arial, sans-serif; /* Changed font family to Arial for better readability */
+  
+}
+.home .card-body h5.card-title {
+  font-size: 30px; /* Increased font size for card title */
+  margin-bottom: 5px; /* Added margin bottom for better spacing */
+  
+}
+.home .card-body h6.card-subtitle {
+  font-size: 14px; /* Adjusted font size for subtitle */
+  margin-bottom: 10px; /* Added margin bottom for better spacing */
+}
+.home .card-body p.card-text {
+  font-size: 16px; /* Adjusted font size for paragraph text */
+  margin-bottom: 15px; /* Added margin bottom for better spacing */
+}
+.home .card-body .img1 {
+  position: absolute;
+  top: 0px;
+  left: -4px;
+  width: 170px;
+  height: 159px;
+  opacity: 9;
+  border-right: 2px solid black; /* Define the left border */
+  border-top-right-radius: 50px; /* Define the border radius for the top left corner */
+  border-bottom-right-radius: 50px;
+}
+.home .card-body .img2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 157px;
+  width: 180px;
+  opacity: 9;
+  border-left: 2px solid black; /* Define the left border */
+  border-top-left-radius: 50px; /* Define the border radius for the top left corner */
+  border-bottom-left-radius: 50px;
+}
 
+.home .card {
+  overflow: hidden;
+}
+.home .card-link {
+  color: white;
+  text-decoration: none;
+  background-color: #040c14; /* Default button color */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s; /* Added transition for smoother hover effect */
+}
+.home .card-link:hover {
+  color: red;
+  background-color: #d37917; /* Button color on hover */
+  transform: scale(1.05); /* Scale the button on hover to make it pop out */
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

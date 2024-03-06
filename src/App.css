@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url("./images/sky.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .App-logo {
@@ -7,6 +10,51 @@
   pointer-events: none;
 }
 
+.content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.text-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 5px 15px;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 2, 2);
+  border-radius: 20px;
+  font-size: 50px;
+  width: 50%;
+  color: #16160c; /* Change the color of the text content */
+  text-shadow: 2px 2px 4px rgba(239, 232, 7, 0.816); /* Add red text shadow */
+}
+.text-content-update{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  padding: 5px 15px;
+  transform: translate(-50%, -50%);
+  color: rgb(14, 2, 2);
+  border-radius: 20px;
+  font-size: 50px;
+  width: 50%;
+  color: #16160c; /* Change the color of the text content */
+  text-shadow: 2px 2px 4px rgba(255, 240, 30, 0.816); /* Add red text shadow */
+}
+.read-data h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(51, 124, 250, 0.816);
+}
+.form-check-label{
+  color: white;
+  padding-left: 5px;
+  padding-right: 10px;
+  text-shadow: 2px 2px 4px rgba(239, 232, 7, 0.816);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
