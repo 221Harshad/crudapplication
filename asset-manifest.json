@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/crudapplication/static/css/main.627bce97.css",
+    "main.js": "/crudapplication/static/js/main.bb69f662.js",
+    "static/js/453.a6a97343.chunk.js": "/crudapplication/static/js/453.a6a97343.chunk.js",
+    "static/media/firefly.png": "/crudapplication/static/media/firefly.41f3dd573a964f7bd505.png",
+    "static/media/zenitsu.png": "/crudapplication/static/media/zenitsu.1bff9fcd458d86c37f87.png",
+    "static/media/fly.jpg": "/crudapplication/static/media/fly.9494ddd8d35d2e1a7687.jpg",
+    "static/media/man_on_mountain.png": "/crudapplication/static/media/man_on_mountain.41b59d37a39bb0b35f75.png",
+    "static/media/sky.png": "/crudapplication/static/media/sky.ea6840a0c3565ba26ec5.png",
+    "static/media/new world.png": "/crudapplication/static/media/new world.7cd05c3390f7675b8df4.png",
+    "static/media/butterfly.png": "/crudapplication/static/media/butterfly.88daf6c8f058c8fc4856.png",
+    "static/media/blue-morpho-butterfly.png": "/crudapplication/static/media/blue-morpho-butterfly.97e432728f927c87eda5.png",
+    "static/media/hot-air-balloon.png": "/crudapplication/static/media/hot-air-balloon.6baeeaf4e8a724c546ef.png",
+    "static/media/portgasace.png": "/crudapplication/static/media/portgasace.37d4b8660f643ecf516c.png",
+    "index.html": "/crudapplication/index.html",
+    "main.627bce97.css.map": "/crudapplication/static/css/main.627bce97.css.map",
+    "main.bb69f662.js.map": "/crudapplication/static/js/main.bb69f662.js.map",
+    "453.a6a97343.chunk.js.map": "/crudapplication/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.627bce97.css",
+    "static/js/main.bb69f662.js"
+  ]
+}
